@@ -4,14 +4,14 @@
 name: Build
 on:
   push:
-    branches: [ "lau" ]
+    branches: [ "master" ]
     paths:
       - 'tensorflow-core/tensorflow-core-api/src/**'
       
       - '**.xml'
       
   pull_request:
-    branches: [ "lau" ]
+    branches: [ "master" ]
     paths:
       - 'tensorflow-core/tensorflow-core-api/src/**'
       
