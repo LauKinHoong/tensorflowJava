@@ -1,4 +1,5 @@
 // please works
+package org.tensorflow;
 import java.util.*;
 /**
  * Is a common mathematics concept to find the smallest value number 
