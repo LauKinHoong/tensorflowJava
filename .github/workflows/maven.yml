@@ -5,11 +5,13 @@ name: Build
 on:
   push:
     paths:
+    
       - 'tensorflow-core/tensorflow-core-api/src/**'
       - '**.xml'
       
   pull_request:
     paths:
+    
       - 'tensorflow-core/tensorflow-core-api/src/**'
       - '**.xml'
       
