@@ -8,14 +8,14 @@ on:
     paths:
       - 'tensorflow-core/tensorflow-core-api/src/**'
       
-      - '**.xml'
+      - 'tensorflow-core/tensorflow-core-api/**.xml'
       
   pull_request:
     branches: [ "master" ]
     paths:
       - 'tensorflow-core/tensorflow-core-api/src/**'
       
-      - '**.xml'
+      - 'tensorflow-core/tensorflow-core-api/**.xml'
       
 jobs:
   build:
